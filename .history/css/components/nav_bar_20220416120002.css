@@ -15,7 +15,7 @@
 }
 
 .nav__friends {
-  background-color: #eeeeee;
+  background-color: black;
   padding: 20px 60px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -23,6 +23,7 @@
   width: 100%;
   box-sizing: border-box;
   animation: appearbtnanimation 1s ease-in-out;
+  z-index: 10;
 }
 
 .nav__li {
